@@ -1,0 +1,236 @@
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+  Typographic tweaks!
+  3. Add accessible line-height
+  4. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: system-ui;
+}
+
+/*
+  5. Improve media defaults
+*/
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/*
+  6. Remove built-in form typography styles
+*/
+input, button, textarea, select {
+  font: inherit;
+}
+
+/*
+  7. Avoid text overflows
+*/
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+.container {
+  width: 1440px;
+  background-color: #FFFDFA;
+  padding-inline: 165px;
+  font-family: 'Inter';
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 87px;
+}
+
+.contents {
+  display: flex;
+  gap: 40px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+}
+
+.contents li {
+  list-style-type: none; /*listenin başındaki noktaları silmeye yarar */
+}
+
+.contents a {
+  color: #5E607A;
+  text-decoration: none;
+}
+
+.contents a:hover {
+  color: #F15D51;
+}
+
+.hero {
+  width: 730px;
+  height: 300px;
+  margin-top: 55px;
+  margin-top: 28px;
+}
+.hero-inner {
+  display: flex;
+  gap: 30px;
+  margin-top: 28px; 
+}
+
+.texts h1 {
+  color: #00001A;
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 56px;
+  text-align: left;
+  width: 350px;
+}
+
+.hero-indents p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  width: 350px;
+  color: #5E607A;
+  margin-bottom: 29px;
+}
+
+.hero-button {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 4.375px;
+  text-align: left;
+  color: #FFFDFA;
+  background-color: #F15D51;
+  width: 185px;
+  height: 48px;
+  padding-top: 13px;
+  padding-left: 31px;
+  padding-right: 35px;
+  padding-bottom: 11px;
+}
+.hero-button:hover {
+  background-color:  #00001A;
+}
+
+.hero-indents a {
+  text-decoration: none;
+}
+
+.news {
+  width: 350px;
+  background-color: #00001A;
+  margin-inline: 24px;
+  margin-top: 29px;
+}
+
+.news h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: left;
+  color: #E9AA52;
+  padding-top: 32px;
+  margin-inline: 24px;
+  margin-bottom: 34px;
+}
+
+.news h4 {
+  margin-top: 31px;
+  color: #FFFDFA;
+  margin-inline: 24px;
+  margin-bottom: 8px;
+}
+.news h4:hover {
+  color: #E9AA52;
+}
+
+.news p {
+  color: #C5C6CE;
+  margin-inline: 24px;
+  margin-bottom: 29px;
+}
+
+hr {
+  border: none;
+  width: 350px;
+  height: 1px;
+  background-color: #5E607A;         
+  margin: 30px 0; 
+}
+
+.hero-upper {
+  display: flex;
+  gap: 30px;
+}
+
+.footer {
+  display: flex;
+  gap: 30px;
+  margin-top: 71px;
+}
+
+.footer img {
+  height: 127px;
+}
+.footer h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  color: #C5C6CE;
+  margin-bottom: 12px;
+}
+.footer h4 {
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 24px;
+  text-align: left;
+  color: #00001A;
+  margin-bottom: 9px;
+}
+.footer h4:hover {
+  color: #F15D51;
+}
+
+.footer p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: #5E607A;
+  margin-bottom: 129px;
+
+}
+
+.computer {
+  display: flex;
+  gap: 24px;
+}
+.keyboard {
+  display: flex;
+  gap: 24px;
+}
+.command {
+  display: flex;
+  gap: 24px;
+}
+
